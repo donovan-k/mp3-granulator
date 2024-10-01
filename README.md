@@ -1,6 +1,6 @@
 <h2> MP3 Granulator </h2>
 
-This is a granulator synth that takes in an audio file and randomly chooses grains (short sections of the sample of length grain_size). 
+This is a granulator synth that takes in an audio file and randomly chooses grains (short sections of the sample of length grain_size) and assembles them into an output the same size as the input audio. 
 
 <h3> grain_size </h3>
 This is the size of the choses grain and the size oscilates following a sine wave with a frequency parameter. Shown is a sine wave that has been normalized to a minimum of 20 milliseconds and a maximum of 5000 milliseconds.
